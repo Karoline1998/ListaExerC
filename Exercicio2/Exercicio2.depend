@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1616479947 source:d:\c++\exercicio2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
