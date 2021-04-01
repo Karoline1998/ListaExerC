@@ -69,3 +69,65 @@ Fazer um trecho de programa em "C" que lê um valor para x e calcula o valor de 
  2) Opção: em duas vezes (preço da etiqueta)
  3) Opção: de 3 até 10 vezes com 3% de juros ao mês (somente para compras acima de R$ 100,00).
 OBS: fazer uma função que imprime as opções solicita a opção desejada e retorna a opção escolhida. No programa principal, testar a opção escolhida e ativar a função correspondente (uma função para cada opção).
+
+VI - Vetores
+
+1. Fazer um programa em "C" que lê 10 valores e imprime o maior e o menor valores lidos.
+
+2. Fazer um programa que lê um conjunto de 10 valores e os imprime ordenados.
+
+3. Fazer uma rotina que recebe como parâmetro um array de 5 posições contendo as notas de um aluno ao longo do ano e devolve a média do aluno.
+
+4. Fazer uma rotina que recebe um array do tipo double e o número de valores que devem ser solicitados ao usuário e devolve o array preenchido com os valores digitados.
+
+5. Fazer um programa em "C" que lê um conjunto de 10 valores inteiros e verifica se algum dos valores é igual a média dos mesmos.
+
+6. Fazer um programa que lê valores para uma matriz do tipo "float"de 5 linhas por
+
+3 colunas e imprime a diferença entre a média dos elementos das colunas pares e a média dos elementos das linhas ímpares.
+
+VII - Strings
+
+1. Fazer um programa em "C" que lê um string qualquer de no máximo 80 caracteres e imprime:
+
+ - Quantos caracteres são de pontuação;
+ - Quantos caracteres são números;
+ - Quantos caracteres são minúsculas.
+
+2. Fazer um programa em "C" que lê um string contendo palavras separadas por um espaço em branco cada e as imprime uma abaixo das outras.
+
+3. Fazer um programa em "C" que lê um string do teclado e se utiliza de uma rotina recursiva para imprimir o string de maneira normal e de tráz para diante.
+
+4. Fazer um programa em "C" que pregunta o nome, o endereço, o telefone e a idade de uma pessoa e monta um string com a seguinte frase:
+
+"Seu nome é ..., você tem ... anos, mora na rua ... e seu telefone é ... ."
+
+5. Fazer uma rotina que aguarda um string do teclado e retorna o valor 1 se o string digitado foi "SIM" e 0 se o string digitado foi "NAO". A rotina só deve retornar alguma coisa se o string digitado for "SIM" ou "NAO".
+
+6. Fazer uma rotina que recebe um string como parâmetro e imprime quantas palavras (separadas por espaços em branco) o mesmo contém.
+
+7. Implemente um rotina que faça a mesma coisa que a função "strcpy".
+
+8. Fazer um programa em "C" que solicita um número inteiro e soletra o mesmo na tela.
+
+Ex: 124: um, dois, quatro
+
+9. Fazer um programa em "C" que leia nomes de pessoas compostos por um prénome e um sobrenome separados por um espaço em branco e imprima:
+
+- A lista de nomes em ordem alfabética do pré-nome;
+- A lista de nomes em ordem alfabética de sobrenomes;
+- O número médio de letras por nome.
+
+Obs:
+• a quantidade de nomes lidos deve ser menor ou igual a 20;
+• uma seqüência de nomes é encerrada pela palavra "FIM" ou quando for lido o 20 nome.
+
+10.Escrever uma função que recebe um string e um caracter como parâmetro e remove todas as ocorrências do caracter do string.
+
+11.Escreva uma função em "C" que receba um string um caracter e o índice de uma posição do string como parâmetro e insira o caracter na posição "empurrando" todos os demais para o lado.
+
+12.Fazer uma rotina em "C" que recebe um string como parâmetro e devolve o endereço do primeiro caracter branco encontrado.
+
+13.Fazer uma rotina que recebe como parâmetro um string contendo um número e um inteiro indicanndo a base na qual o número está expresso, retornando o seu valor em decimal
+
+Ex: conv2dec("345", 8) => 229
